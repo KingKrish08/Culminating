@@ -5,7 +5,6 @@ let obstacleSpeed = 25; // obstacle's speed
 let obstacleWidth = 30; // obstacle's width;
 let obstacleHeight = 30; // obstacle's size
 let score = 0; // player's starting score
-let cloudsize = 10; // cloud size
 let gameOver = false; // initially tells the code if the game is over
 let isHomeScreen = true; // flag to indicate whether it's the home screen or game screen
 
@@ -42,7 +41,6 @@ if (keyIsDown(32)) { // Check for space bar press to start the game
 
 else { // Display game screen
   background("darkblue");
-
   if (!gameOver) {
 
 // Move player left
